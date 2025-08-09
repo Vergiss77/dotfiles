@@ -11,8 +11,15 @@ brew install stow
 首先将此项目clone在用户目录下
 ```shell
 cd ~
-git clone https://github.com/Vergiss77/dotfiles.git
+git clone --recursive https://github.com/Vergiss77/dotfiles.git
 ```
 
 在`~/dotfiles`使用`stow <PKG_NAME>`命令将对应的配置文件应用到系统中
+
+### pkg list
+- zsh
+- kitty
+- omz: oh-my-zsh
+- omz-custom: custom plugins and themes for oh-my-zsh
+- nvim: neovim with LazyVim
 

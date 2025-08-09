@@ -1,0 +1,6 @@
+[submodule "omz/.oh-my-zsh"]
+	path = omz/.oh-my-zsh
+	url = https://github.com/ohmyzsh/ohmyzsh.git
+[submodule "omz-custom/.oh-my-zsh/custom/plugins/zsh-autosuggestions"]
+	path = omz-custom/.oh-my-zsh/custom/plugins/zsh-autosuggestions
+	url = https://github.com/zsh-users/zsh-autosuggestions.git

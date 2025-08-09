@@ -4,3 +4,6 @@
 [submodule "omz-custom/.oh-my-zsh/custom/plugins/zsh-autosuggestions"]
 	path = omz-custom/.oh-my-zsh/custom/plugins/zsh-autosuggestions
 	url = https://github.com/zsh-users/zsh-autosuggestions.git
+[submodule "nvim/.config/nvim"]
+	path = nvim/.config/nvim
+	url = https://github.com/Vergiss77/starter.git

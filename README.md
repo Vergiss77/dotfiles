@@ -11,10 +11,10 @@ brew install stow
 首先将此项目clone在用户目录下
 ```shell
 cd ~
-git clone --recursive https://github.com/Vergiss77/dotfiles.git
+git clone --recursive https://github.com/Vergiss77/dotfiles.git ~/.dotfiles
 ```
 
-在`~/dotfiles`使用`stow <PKG_NAME>`命令将对应的配置文件应用到系统中
+在`~/.dotfiles`使用`stow <PKG_NAME>`命令将对应的配置文件应用到系统中
 
 ### pkg list
 - zsh

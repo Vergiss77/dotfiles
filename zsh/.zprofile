@@ -16,7 +16,7 @@ export OsqpEigen_DIR=/usr/local/osqp-eigen
 
 export EDITOR=nvim
 
-alias setproxy="export http_proxy=http://127.0.0.1:7897; export https_proxy=$http_proxy; echo 'Set proxy successfully.'"
+alias setproxy='export http_proxy=http://127.0.0.1:7897; export https_proxy=$http_proxy; echo "Set proxy successfully."'
 alias unsetproxy="unset http_proxy https_proxy; echo 'Unset proxy successfully.'"
 
 alias setgitproxy="git config --global http.proxy 127.0.0.1:7897; git config --global https.proxy 127.0.0.1:7897; echo 'Set proxy for git successfully.'"
